@@ -24,5 +24,10 @@ public class Anasayfa implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
+        if(e.getSource() == button)
+        {
+            ProfileSayfa profileSayfa = new ProfileSayfa();
+        }
+
     }
 }
